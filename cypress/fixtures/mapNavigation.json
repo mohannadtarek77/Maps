@@ -1,0 +1,22 @@
+{
+    "url": "/maps",
+    "startingPoint": {
+      "pipsDonuts": "Pip's Original Doughnuts & Chai",
+      "pipsDonutsSubmitted":"that Pip's Original Doughnuts & Chai should be submitted"
+    },
+    "destination": {
+      "TuftandNeedle": "Tuft & Needle HQ, 735 Grand Ave, Phoenix, AZ 85007Tuft & Needle HQ, 735 G",
+     "TuftandNeedleHQSubmitted":"that Tuft & Needle HQ should be submitted"
+    },
+    "enter":"{enter}",
+    "quickestRouteValidation":"that the Quickest route is chosen due to traffic conditions",
+    "directionsShouldBeExpanded":"that the directions should be expanded and visible",
+    "headingDirection":"Head",
+    "gasStationsList":"that the Gas Stations List is shown",
+    "addedStation":"Circle K, 614 W Roosevelt St, Phoenix, AZ 85003 ",
+    "addedStationField":"that the Gas Stations was selected and added to the search field",
+    "routeValidation":"Fastest route",
+    "selectedNavigationType":"that the Navigation Type was selected and visible"
+  }
+  
+  
