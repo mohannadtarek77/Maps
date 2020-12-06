@@ -2,7 +2,9 @@
     "url": "/maps",
     "startingPoint": {
       "pipsDonuts": "Pip's Original Doughnuts & Chai",
-      "pipsDonutsSubmitted":"that Pip's Original Doughnuts & Chai should be submitted"
+      "pipsDonutsLocation":"4759 NE Fremont St, Portland, OR 97213",
+      "pipsDonutsSubmitted":"that Pip's Original Doughnuts & Chai should be submitted",
+      "pipsLocationCheck":"that Pip's Original Doughnuts & Chai location is Portland,Oregon"
     },
     "destination": {
       "TuftandNeedle": "Tuft & Needle HQ, 735 Grand Ave, Phoenix, AZ 85007Tuft & Needle HQ, 735 G",

@@ -60,3 +60,4 @@
 [1203/034509.984:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [1203/043321.158:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [1203/053355.825:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\ThinkMaster\AppData\Roaming\Cypress\cy\production\browsers\chrome-stable\interactive\Crashpad\attachments\28c4aa57-9143-4e00-8498-b66653e9f156: The system cannot find the path specified. (0x3)
+[1206/002645.224:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

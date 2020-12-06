@@ -11,6 +11,10 @@ class Navigation {
         return cy.visit(data.url);
         //visiting the url of google maps
     }
+    checkOnPipsLocation() {
+        return assert.isOk(data.startingPoint.pipsLocationCheck)
+        // TDD assertion on the submission of the starting point 
+    }
     checkOnStartingPoint() {
         return assert.isOk(data.startingPoint.pipsDonutsSubmitted)
         // TDD assertion on the submission of the starting point 
@@ -38,6 +42,14 @@ class Navigation {
     clickEnter() {
         return cy.get("#sb_ifc52 >.tactile-searchbox-input").type(data.enter)
         // click enter button to search   
+    } 
+    searchForAPlace(){
+        this.visitUrl()
+        this.checkOnPipsLocation()
+        cy.get("input#searchboxinput.tactile-searchbox-input").type(data.startingPoint.pipsDonuts).type(data.enter)
+        cy.wait(2000)
+        return cy.contains(data.startingPoint.pipsDonutsLocation).should("be.visible")
+        // searching for a specific place and validating its location 
     }
     submitAddress() {
         this.visitUrl()

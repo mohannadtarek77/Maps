@@ -23,6 +23,12 @@ let gasStationsPage = new GasStations();
 let navigationTypePage = new NavigationType();
 
 describe("Test Cases for the Navigation from PIPs Doughnuts to Tuft and Needle's Headquarters", function () {
+ 
+  it("User searches for Pip's Original Doughnuts & Chai and validates its location in Portland,Oregon ", function() {
+    navigationPage.searchForAPlace();
+    // searching for Pip's Original Doughnuts & Chai and validating its location in Portland,Oregon
+  });
+ 
   it("User enters the Starting Point and the Final Destination ", function() {
     navigationPage.submitAddress();
     // submitting the starting point and final destination address
